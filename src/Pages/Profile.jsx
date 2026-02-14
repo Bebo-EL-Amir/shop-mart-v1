@@ -20,7 +20,7 @@ export default function Profile() {
         setIsImageLoading(true)
         const file = e.target.files[0]
         const formData = new FormData()
-        formData.append('photo', file)
+        formData.append('image', file)
         
         const res = await uploadProfilePhotoApi(formData)
         if(res.user){

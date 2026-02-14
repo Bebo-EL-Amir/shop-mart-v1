@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Componet/navbar'
+import Navbar from '../Componet/Navbar'
 import Footer from '../Componet/Footer'
 import { Outlet } from 'react-router-dom'
 import FeedPage from '../Pages/FeedPage'

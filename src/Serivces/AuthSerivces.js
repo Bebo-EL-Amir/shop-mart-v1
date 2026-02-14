@@ -52,7 +52,7 @@ export async function uploadProfilePhotoApi(formData) {
         })
         return data
     } catch (err) {
-        console.log(err);
+        console.log("Upload Error:", err.response);
         return err.response?.data
     }
 }
