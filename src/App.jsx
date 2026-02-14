@@ -12,7 +12,7 @@ import PostDetails from './Pages/PostDetails'
 import NotFoundPage from './Pages/NotFoundPage'
 import Register from './Pages/Register'
 import Login from './Pages/Login'
-import ProtectedRoute from './Componet/protectedRoute'
+import ProtectedRoute from './Componet/ProtectedRoute'
 import AuthProtectedRoute from './Componet/AuthProtectedRoute'
 
 
