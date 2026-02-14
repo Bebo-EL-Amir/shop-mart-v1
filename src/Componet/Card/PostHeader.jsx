@@ -1,5 +1,5 @@
 import React from 'react'
-import userImage from '../../Assets/1.avif'
+import userImage from '../../assets/1.avif'
 
 export default function PostHeader({photo,name,date}) {
   return (
